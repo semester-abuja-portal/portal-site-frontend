@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Header {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+Header .logo span {
+    background: #176B5B;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'lora', sans-serif;
+    padding: 5px;
+    gap: 5px;
+    border-radius: 3px;
+}
+
+Header .logo {
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #176B5B;
+}
+
+Header .Navigation ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+
+
+
+}
+
+Header .Navigation ul li a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+
+}
+
+Header .Navigation ul li a:hover {
+    color: #176B5B;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+Header .button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+}
+
+Header .button .login-button {
+
+    border: none;
+    background-color: #FFFFFF;
+}
+
+Header .button .CreateAccount-button {
+    border: none;
+    background-color: #176B5B;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.November {
+    background-color: #E5EFEB;
+    color: #203731;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+
+}
+
+.hero .image-text .hero-image {
+    width: 616px;
+    height: 478px;
+    
+
+}
